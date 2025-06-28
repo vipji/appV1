@@ -11,7 +11,7 @@ export default defineConfig({
 */
 export default defineConfig({
   plugins: [react()],
-  base: "/oopCC/", // Must match repository name exactly
+  base: "/appV1/", // Must match repository name exactly
   build: {
     outDir: 'dist', // Explicit output directory
     emptyOutDir: true, // Cleans the directory before build
